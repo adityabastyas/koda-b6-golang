@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Cheese Madness Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Cheese Madness Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Cheese Madness Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Cheese Madness Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Creamy Chicken Alfredo Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Creamy Chicken Alfredo Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Creamy Chicken Alfredo Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Creamy Chicken Alfredo Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Super Supreme Regular Pizza",
+    "harga": 120000,
+    "custom": {
+      "crust": {
+        "name": "Super Supreme Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Super Supreme Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Super Supreme Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Super Supreme Chicken Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Super Supreme Chicken Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Super Supreme Chicken Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Super Supreme Chicken Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Super Supreme Veggie Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Super Supreme Veggie Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Super Supreme Veggie Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Super Supreme Veggie Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Meat Lovers Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Meat Lovers Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Meat Lovers Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Meat Lovers Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Chicken Lovers Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Chicken Lovers Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Chicken Lovers Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Chicken Lovers Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Meat Lovers Cheesy Mayo Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Meat Lovers Cheesy Mayo Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Meat Lovers Cheesy Mayo Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Meat Lovers Cheesy Mayo Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "American Favourite Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "American Favourite Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "American Favourite Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "American Favourite Mayo Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Pepperoni Regular Pizza",
+    "harga": 95000,
+    "custom": {
+      "crust": {
+        "name": "Pepperoni Regular Pizza Crust",
+        "options": [
+          { "id": "sausage", "name": "StuffedCrust Sausage", "harga": 18000 },
+          { "id": "cheese", "name": "StuffedCrust Cheese", "harga": 22000 },
+          { "id": "original", "name": "Original", "harga": 0 },
+          { "id": "bites", "name": "Cheesy Bites", "harga": 25000 }
+        ]
+      },
+      "topping": {
+        "name": "Pepperoni Regular Pizza Topping",
+        "options": [
+          {
+            "id": "madness",
+            "name": "Cheese Madness",
+            "harga": 0
+          }
+        ]
+      },
+      "extraTopping": {
+        "name": "Pepperoni Regular Topping",
+        "options": [
+          {
+            "id": "mozzarella",
+            "name": "Top Keju Mozzarella Regular",
+            "harga": 18000
+          }
+        ]
+      }
+    }
+  }
+]
