@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"koda-b6-golang/input"
+	"koda-b6-golang/keranjang"
 	"koda-b6-golang/menu"
 	"koda-b6-golang/models"
 	"net/http"
@@ -18,6 +19,7 @@ func main() {
 	url := "https://raw.githubusercontent.com/adityabastyas/koda-b6-golang/refs/heads/main/assets/data/menu.json"
 
 	var menuData []models.Menu
+	var kranjang []models.ItemKeranjang
 
 	res, err := http.Get(url)
 	if err != nil {
@@ -42,11 +44,11 @@ func main() {
 		panic("data tidak ada")
 	}
 
-	menuUtama(menuData)
+	menuUtama(menuData, &kranjang)
 
 }
 
-func menuUtama(menuData []models.Menu) {
+func menuUtama(menuData []models.Menu, kranjang *[]models.ItemKeranjang) {
 	for {
 		fmt.Println("\n== MENU UTAMA ==")
 		fmt.Println("1. menu pizza")
@@ -62,6 +64,8 @@ func menuUtama(menuData []models.Menu) {
 		switch pilihan {
 		case "1":
 			menu.TampilkanMenu(menuData)
+		case "2":
+			keranjang.TambahKeKeranjang(menuData, kranjang)
 		}
 	}
 }
