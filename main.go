@@ -68,6 +68,8 @@ func menuUtama(menuData []models.Menu, kranjang *[]models.ItemKeranjang) {
 			keranjang.TambahKeKeranjang(menuData, kranjang)
 		case "3":
 			keranjang.TampilkanKeranjang(*kranjang)
+		case "4":
+			keranjang.HapusKeranjang(kranjang)
 		}
 	}
 }

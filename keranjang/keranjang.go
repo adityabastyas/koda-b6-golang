@@ -59,3 +59,29 @@ func TambahKeKeranjang(menuData []models.Menu, keranjang *[]models.ItemKeranjang
 	fmt.Println("berhasil ditambakan")
 	fmt.Printf("%s x%d = Rp%d\n", pizza.Name, jumlah, pizza.Harga*jumlah)
 }
+
+func HapusKeranjang(keranjang *[]models.ItemKeranjang) {
+	if len(*keranjang) == 0 {
+		fmt.Println("keranjang kosong")
+		return
+	}
+
+	TampilkanKeranjang(*keranjang)
+
+	jawaban := input.TanyaUser("pilih nomor atau 0 untuk batal: ")
+	nomor, err := strconv.Atoi(jawaban)
+	if err != nil || nomor < 0 || nomor > len(*keranjang) {
+		fmt.Println("nomor salah")
+		return
+	}
+
+	if nomor == 0 {
+		fmt.Println("batal menghapus")
+		return
+	}
+
+	namaItem := (*keranjang)[nomor-1].Nama
+
+	*keranjang = append((*keranjang)[:nomor-1], (*keranjang)[nomor:]...)
+	fmt.Printf("berhasil hapus: %s\n", namaItem)
+}
