@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"koda-b6-golang/checkout"
 	"koda-b6-golang/input"
 	"koda-b6-golang/keranjang"
 	"koda-b6-golang/menu"
@@ -70,6 +71,8 @@ func menuUtama(menuData []models.Menu, kranjang *[]models.ItemKeranjang) {
 			keranjang.TampilkanKeranjang(*kranjang)
 		case "4":
 			keranjang.HapusKeranjang(kranjang)
+		case "5":
+			checkout.Checkout(kranjang)
 		}
 	}
 }
