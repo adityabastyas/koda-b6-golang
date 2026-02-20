@@ -73,6 +73,11 @@ func menuUtama(menuData []models.Menu, kranjang *[]models.ItemKeranjang) {
 			keranjang.HapusKeranjang(kranjang)
 		case "5":
 			checkout.Checkout(kranjang)
+		case "6":
+			fmt.Println("history")
+		case "7":
+			fmt.Println("terimakasih...")
+			os.Exit(0)
 		}
 	}
 }
