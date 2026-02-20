@@ -9,6 +9,21 @@ import (
 )
 
 func TampilkanKeranjang(keranjang []models.ItemKeranjang) {
+	fmt.Println("=== KERANJANG BELANJA ===")
+	if len(keranjang) == 0 {
+		fmt.Println("keranjang kosong")
+		return
+	}
+
+	totalBelanja := 0
+
+	for i, item := range keranjang {
+		subtotal := item.Harga * item.Jumlah
+		totalBelanja += subtotal
+		fmt.Printf("%d. %s\n", i+1, item.Nama)
+		fmt.Printf("  %dx Rp%d = Rp%d\n", item.Jumlah, item.Harga, subtotal)
+	}
+	fmt.Printf("TOTAL: Rp%d\n", totalBelanja)
 
 }
 
